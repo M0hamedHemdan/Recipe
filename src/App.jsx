@@ -14,7 +14,7 @@ function App() {
       element: <Layout />,
       children: [
         {
-          index: true,
+          path: "home",
           element: <Home />,
         },
         { path: "category/:name", element: <Categorys /> },
