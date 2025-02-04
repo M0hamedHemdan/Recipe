@@ -1,0 +1,88 @@
+.categry{
+    margin-top: 6rem;
+    
+    
+    .bg{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        gap:5rem 1rem ;
+        flex-wrap: wrap;
+        // justify-content: space-between;
+        align-items: center;
+        // padding: 2rem;
+        // border-radius: 1rem;
+        // background-color: #fff;
+        // width: 30%;
+        .content{
+            
+            background-color: #fff;
+            border-radius: 30px;
+            width: 30%;
+            margin: auto;
+            // padding: 48px;
+            // position: relative;
+            text-align: center;
+            // width: 100%;
+            transition:box-shadow .5s, scale .5s;
+            scale: .97;
+            &:hover{
+                scale: 1;
+                box-shadow: 1px 5px 15px #beafaf;
+                .images{
+                    transform: rotate(360deg);
+                }
+            }
+            .images{
+                border-radius: 50%;
+                overflow: hidden;
+                position: relative;
+                top: -70px;
+                left: 0;
+                transform: translateX(-50%);
+                transform: rotate(0);
+                transition: transform .5s;
+                width: 75%;
+                
+                margin: auto;
+                img{
+                    width: 100%;
+                    display: block;
+                    
+
+                }
+            }
+            .text{
+                h3{
+                    font-size: 20px;
+                    margin: 0;
+                }
+                h5{
+                    font-weight: 600;
+                    font-size: 16px;
+                    margin: 0;
+                    color: #059669;
+                }
+                .button{
+                    margin-top: 16px;
+                    font-weight: 600;
+                    font-size: 16px;
+                    background-color: #13c48c;
+                    color: #fff;
+                    transition:scale .5s, background-color .5s;
+                    padding: 15px 25px;
+                    border: 0;
+                    border-radius: 15px;
+                    scale: .93;
+                    margin-bottom: 30px;
+                    cursor: grab;
+                    &:hover{
+                        background-color: #059669;
+                        scale: 1;
+                    }
+                    
+                }
+            }
+        }
+    }
+}

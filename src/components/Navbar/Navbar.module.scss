@@ -1,0 +1,58 @@
+
+
+.bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 16rem;
+    padding: 1rem .75rem;
+    background-color: #F9FAFB;
+    .container{
+        width: 16rem;
+        .imges{
+            
+            img{
+                width: 100%;
+            }
+        }
+    }
+    .ul{
+        margin-top: 1rem;
+        padding: 0;
+        li{
+            list-style: none;
+            .a{
+                background-color: #F29724;
+                color: #fff;
+                box-shadow: 0px 5px 15px #F29724;
+                border: 0;
+            }
+            a{
+                font-family: "Cedarville Cursive", serif;
+                font-weight: 600;
+                text-decoration: none;
+                
+                
+                color: #000;
+                padding:  13px 20px;
+                scale: .94;
+                margin-bottom: 1.5rem;
+                border-radius: 10px;
+                display: block;
+                border: 1px solid #000;
+                
+                transition: scale .4s , box-shadow .5s;
+                &:hover{
+                    box-shadow: none;
+                    scale: 1;
+                    
+                }
+
+            }
+        }
+        
+
+    }
+    
+}
